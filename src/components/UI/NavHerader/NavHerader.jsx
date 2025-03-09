@@ -8,6 +8,7 @@ export const NavHerader = ({ classn = 'nav', navLink = 'navLink' }) => {
     <nav className={classn}>
       <ul className={navLink}>
       <ItemNav classLI="linkItem" lazzy="Inicio" />
+      <ItemNav classLI="linkItem" link='Skills' lazzy="Habilidades Tecnicas" />
       </ul>
     </nav>
   );

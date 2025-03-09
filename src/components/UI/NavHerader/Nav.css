@@ -31,6 +31,9 @@ nav, .navLink {
     text-decoration: none;
   }
   
+  .linkItem:hover{
+    color:rgb(20, 233, 86) ;
+  }
   @media (max-width:650px ){
     .nav{
         margin-left: 2rem;

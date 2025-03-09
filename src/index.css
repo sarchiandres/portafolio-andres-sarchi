@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Jersey+25+Charted&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pixelify+Sans:wght@400..700&family=Sixtyfour&display=swap');
+
 :root {
   width: 100vw;
   background-color: #ffffff;
@@ -7,4 +9,8 @@ html, body {
   height: 100%;
   margin: 0;
   overflow: hidden;
+  font-family: "Big Shoulders Inline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
