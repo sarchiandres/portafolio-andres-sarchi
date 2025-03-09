@@ -26,6 +26,7 @@ section{
     width: 20rem;
     height: 20rem;
     animation: flotar 2s ease-in-out infinite;
+    will-change: transform;
 }
 
 @keyframes flotar {
@@ -39,6 +40,7 @@ h1{
     font-size: 4rem;
     font-weight: 400;
     animation: flotar 5s ease-in-out infinite;
+    will-change: transform;
 }
 
 h1 > span{

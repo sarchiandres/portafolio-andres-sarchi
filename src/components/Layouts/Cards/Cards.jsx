@@ -13,7 +13,7 @@ export const Cards = () => {
   return (
      <div className='box-toolin-big'>
                     <div className='title-skill'>
-                        <h2>Habilidades</h2>
+                        <h2>Tecnologias</h2>
                     </div>
                
                     <div className='box-toolin'>
