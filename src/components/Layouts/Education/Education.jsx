@@ -5,7 +5,7 @@ export const Education = () => {
   return (
     <div className='box-education'>
         <div>
-            <h2>Education</h2>
+            <h2>Educacion</h2>
         </div>
         <div className='box-itemEducation'>
             <ul>
