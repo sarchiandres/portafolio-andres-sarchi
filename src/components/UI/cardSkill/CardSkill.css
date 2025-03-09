@@ -3,10 +3,13 @@
     padding: .5rem;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 80%, 0% 100%);
     margin-bottom: 1rem;
+    border-radius: 1rem;
 }
 
 .img-skil {
     width: 4rem;
     height: 4rem;
     margin: 1rem;
+    filter: brightness(0) saturate(100%) invert(48%) sepia(79%) 
+          saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
 }

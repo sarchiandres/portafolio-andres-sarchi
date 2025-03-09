@@ -7,7 +7,7 @@ export const Home = () => {
     <main>
     <section className='homeSection'>
     <div className='info'>
-        <h1>Soy <span>Andres Felipe sarchi,</span> me considero un  programador junior <span>Fullstack</span>
+        <h1>Soy <span>Andres Felipe Sarchi,</span>  programador junior <span>Fullstack</span>
 
         </h1>
     </div>

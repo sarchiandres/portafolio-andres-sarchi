@@ -3,7 +3,7 @@ import './education.css'
 import { ItemEducation } from '../../UI/ItemEducation/ItemEducation'
 export const Education = () => {
   return (
-    <div>
+    <div className='box-education'>
         <div>
             <h2>Education</h2>
         </div>
