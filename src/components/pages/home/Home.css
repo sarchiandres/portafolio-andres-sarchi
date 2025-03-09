@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pixelify+Sans:wght@400..700&display=swap');
+
+main{
+    background-image: url(../../../assets/images//backgroundmain.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.info{
+    width: 40rem;
+}
+
+.dino{
+    width: 20rem;
+    height: 20rem;
+    animation: flotar 2s ease-in-out infinite;
+}
+
+@keyframes flotar {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 400;
+    animation: flotar 5s ease-in-out infinite;
+}
+
+h1 > span{
+    color: #00FF00;
+    font-family: "Jersey 25 Charted", sans-serif;
+    font-style: normal;
+}
+
+.homeSection{
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+@media (max-width:650px ){
+    h1{
+        font-size: 4rem;
+    }
+}
+@media (max-width:600px ){
+    h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+}

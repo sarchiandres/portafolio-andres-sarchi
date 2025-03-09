@@ -1,0 +1,10 @@
+:root {
+  width: 100vw;
+  background-color: #ffffff;
+  height: 100%;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
