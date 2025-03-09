@@ -2,12 +2,11 @@
     background-color: rgb(2, 23, 9);
     padding: .5rem;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 80%, 0% 100%);
-    
+    margin-bottom: 1rem;
 }
 
 .img-skil {
     width: 4rem;
     height: 4rem;
-
     margin: 1rem;
 }
