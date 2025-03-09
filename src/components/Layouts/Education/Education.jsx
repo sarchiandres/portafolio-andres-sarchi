@@ -9,8 +9,8 @@ export const Education = () => {
         </div>
         <div className='box-itemEducation'>
             <ul>
-                <ItemEducation cla='li' titleE='Tecnico en programacin de software' age='2021-2022 Marcelino Champagnat' />
-                <ItemEducation cla='li' titleE='Tecnico en programacin de software' age='2021-2022 Marcelino Champagnat' />
+                <ItemEducation cla='li' titleE='Basico primaria' age='2016-2020 Marcelino Champagnat' />
+                <ItemEducation cla='li' titleE='Basico secundaria' age='2021-2022 Marcelino Champagnat' />
                 <ItemEducation cla='li' titleE='Tecnico en programacin de software' age='2021-2022 Marcelino Champagnat' />
                 <ItemEducation cla='li' titleE='Tecnico en programacin de software' age='2021-2022 Marcelino Champagnat' />
             </ul>

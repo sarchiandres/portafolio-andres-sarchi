@@ -1,3 +1,10 @@
+:root {
+    --fondos:#0A2E23;
+    --destacados:#88D498;
+}
+
+
+
 ul{
     display: flex;
     justify-content: center;
@@ -13,6 +20,10 @@ ul{
 
 .box-education{
     flex-wrap: wrap;
-    background-color: rgba(18, 177, 68, 0.562);
+    background-color: var(--fondos);
     width: 100%;
+}
+h2{
+    color: var(--destacados);
+    text-transform: uppercase;
 }
