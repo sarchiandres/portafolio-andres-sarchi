@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { NavHerader } from '../../UI/NavHerader/NavHerader';
 import "./header.css";
+import logo from '../../../assets/images/logomarca.jpeg';  
 
-const logo = new URL('/src/assets/images/logomarca.jpeg', import.meta.url).href;
 
 export const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
