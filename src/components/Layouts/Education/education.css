@@ -13,19 +13,30 @@ ul{
 }
 .li{
     list-style: none;
-    gap: 2rem;
     margin: 3rem;
     color:  white;
+    
 }
-
+.inglish{
+    list-style: none;
+    margin: 3rem;
+    color:  white;
+    margin-left: -.1rem;
+}
 .box-education{
     flex-wrap: wrap;
     background-color: var(--fondos);
     width: 100vw;
 }
-h2{
+.tittle-education{
     color: var(--destacados);
     text-transform: uppercase;
+    font-size: 4rem;
+}
+h3{
+    color: var(--destacados);
+    text-transform: uppercase;
+    text-align: center;
 }
 @media (max-width: 768px){
     .box-education{

@@ -2,3 +2,12 @@ section{
     width: 100%;
     height: 100vh;
 }
+.tittleEdu{
+    display: none;
+}
+.titleE{
+    font-size: 5rem;
+}
+.tittleinglesh{
+    font-size: 5rem;
+}

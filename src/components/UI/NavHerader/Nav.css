@@ -29,6 +29,7 @@ nav, .navLink {
   .linkItem {
     color: rgb(250, 250, 250);
     text-decoration: none;
+    cursor: url(../../../assets/images/cursorButton.svg) 15 15, move ;
   }
   
   .linkItem:hover{

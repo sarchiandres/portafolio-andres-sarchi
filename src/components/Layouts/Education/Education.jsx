@@ -1,18 +1,16 @@
-import React from 'react'
+import React, { Children } from 'react'
 import './education.css'
 import { ItemEducation } from '../../UI/ItemEducation/ItemEducation'
-export const Education = () => {
+export const Education = ({estudy,children,title_E = 'tittle-education'}) => {
   return (
     <div className='box-education'>
         <div>
-            <h2>Educacion</h2>
+            <h2 className={title_E}>Educacion</h2>
+            <h3>{estudy}</h3>
         </div>
         <div className='box-itemEducation'>
             <ul>
-                <ItemEducation cla='li' titleE='Basico primaria' age='2016-2020 Marcelino Champagnat' />
-                <ItemEducation cla='li' titleE='Basico secundaria' age='2021-2022 Marcelino Champagnat' />
-                <ItemEducation cla='li' titleE='Tecnico en programacin de software' age='2021-2022 Marcelino Champagnat' />
-                <ItemEducation cla='li' titleE='Tecnico en programacin de software' age='2021-2022 Marcelino Champagnat' />
+               {children}
             </ul>
         </div>
     </div>

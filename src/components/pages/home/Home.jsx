@@ -2,6 +2,7 @@ import React from 'react'
 import { Header } from '../../Layouts/Header/Header'
 import "./Home.css"
 import dinoImage from '../../../assets/images/dinoProgramer.png';
+import { Skills } from '../skills/Skills';
 export const Home = () => {
   return (
     <main>
@@ -16,6 +17,7 @@ export const Home = () => {
      </div>
 
     </section>
+    <Skills className='Skills'/>
     </main>
   )
 }
