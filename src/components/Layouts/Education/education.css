@@ -27,7 +27,7 @@ ul{
 .box-education{
     flex-wrap: wrap;
     background-color: var(--fondos);
-    width: 100vw;
+    width: 100%;
 }
 .tittle-education{
     color: var(--destacados);
@@ -43,6 +43,6 @@ h3{
     .box-education{
         flex-wrap: wrap;
         background-color: var(--fondos);
-        width: 100vw;
+        width: 100%;
     }
 }
