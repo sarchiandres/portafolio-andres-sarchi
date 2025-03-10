@@ -5,10 +5,10 @@ import {Netwoks} from '../../Layouts/Networcks/Netwoks'
 
 export const Contact = () => {
   return (
-    <>
+    <section className='secContac'>
     <Netwoks/>
     <ChooseMe/>
     
-    </>
+    </section>
   );
 };
