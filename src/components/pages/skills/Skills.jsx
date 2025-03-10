@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Cards } from '../../Layouts/Cards/Cards'
 import { Education } from '../../Layouts/Education/Education'
 
