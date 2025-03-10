@@ -5,7 +5,7 @@ export const Education = ({estudy,children,title_E = 'tittle-education', box_edu
   return (
     <div className={box_education}>
         <div>
-            <h2 className={title_E}>Educacin</h2>
+            <h2 className={title_E}>Educacion</h2>
             <h3>{estudy}</h3>
         </div>
         <div className='box-itemEducation'>
