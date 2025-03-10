@@ -31,6 +31,6 @@ h2{
     .box-education{
         flex-wrap: wrap;
         background-color: var(--fondos);
-        width: 100%;
+        width: 60rem;
     }
 }
