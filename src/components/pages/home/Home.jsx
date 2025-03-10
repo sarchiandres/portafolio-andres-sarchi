@@ -3,6 +3,7 @@ import { Header } from '../../Layouts/Header/Header'
 import "./Home.css"
 import dinoImage from '../../../assets/images/dinoProgramer.png';
 import { Skills } from '../skills/Skills';
+import { Dowload } from '../../Layouts/DowloadCurriculum/Dowload';
 export const Home = () => {
   return (
     <main>
@@ -17,7 +18,7 @@ export const Home = () => {
      </div>
 
     </section>
-    <Skills className='Skills'/>
+    <Dowload/>
     </main>
   )
 }

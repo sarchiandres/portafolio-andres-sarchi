@@ -9,5 +9,19 @@ section{
     font-size: 5rem;
 }
 .tittleinglesh{
-    font-size: 5rem;
+    font-size: 4rem;
 }
+.box-ed{
+    background-color: black;
+    width: 100vw;
+}
+.skillSocials{
+    font-size: 1rem;
+}
+.li{
+    margin: 1rem;
+}
+.skill{
+    color: green;  /* Cambiar color del texto a verde */
+    font-weight: bold; /* Opcional: para que se vea más destacado */
+  }

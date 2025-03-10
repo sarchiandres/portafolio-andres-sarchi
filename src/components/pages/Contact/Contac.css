@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pixelify+Sans:wght@400..700&display=swap');
+.contact-container {
+    padding: 2rem;
+    text-align: center;
+    background-color:#0A2E23;
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+    color: #1ae264;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 4rem;
+  }
+  
+  .contact-links {
+    margin-top: 2rem;
+  }
+  
+  .contact-links p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: white;
+    
+  }
+  
+  .contact-links a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 3rem;
+    color: #ffffff;
+    transition: color 0.3s;
+     cursor: url(../../../assets/images/cursorButton.svg) 15 15, move ;;
+  }
+  
+  .contact-links a:hover {
+    color: #25d366; /* Cambia a color de WhatsApp al hacer hover */
+  }
+  
+  .whatsapp-link:hover {
+    color: #25d366; /* WhatsApp color */
+  }
+  
+  .email-link:hover {
+    color: #4caf50; /* Green for email */
+  }
+  
+  .linkedin-link:hover {
+    color: #0077b5; /* LinkedIn color */
+  }
+  
+  .facebook-link:hover {
+    color: #1877f2; /* Facebook color */
+  }
+  
+  .instagram-link:hover {
+    color: #e1306c; /* Instagram color */
+  }
+  
