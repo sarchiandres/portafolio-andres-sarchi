@@ -8,7 +8,7 @@ export const Contact = () => {
     <>
     <Netwoks/>
     <ChooseMe/>
-    <Footer/>
+    
     </>
   );
 };
