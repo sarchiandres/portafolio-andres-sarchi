@@ -13,7 +13,7 @@ ul{
 }
 .li{
     list-style: none;
-    margin: 3rem;
+    margin: 3rem 0;
     color:  white;
     
 }
@@ -28,6 +28,7 @@ ul{
     flex-wrap: wrap;
     background-color: var(--fondos);
     width: 100%;
+
 }
 .tittle-education{
     color: var(--destacados);
@@ -45,5 +46,6 @@ h3{
         flex-wrap: wrap;
         background-color: var(--fondos);
         width: 100%;
+
     }
 }
