@@ -46,7 +46,7 @@ img {
         top: 4rem;
         right: -100%;
         width: 12rem;
-        height: 100vh;
+        height: auto;
         background: #222222;
         justify-content: center;
         align-items: center;
