@@ -64,8 +64,8 @@ h1 > span{
         font-size: 4rem;
     }
     .sarchiEmoji{
-        width: 13rem;
-        height: 15rem;
+        width: 23rem;
+        height: 25rem;
         animation: flotar 2s ease-in-out infinite;
         object-fit: cover;
         will-change: transform;
