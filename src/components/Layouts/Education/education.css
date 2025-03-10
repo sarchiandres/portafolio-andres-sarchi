@@ -27,8 +27,8 @@ ul{
 .box-education{
     flex-wrap: wrap;
     background-color: var(--fondos);
-    width: 100%;
-
+    width: 100100vw;
+    overflow: hidden;
 }
 .tittle-education{
     color: var(--destacados);
