@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './networks.css'
 export const Networks = ({contactcontainer='contact-container',contacttitle='contact-title',contactlinks='contact-links'}) => {
   return (
