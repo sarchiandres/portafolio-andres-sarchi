@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom'; 
 import { NavHerader } from '../../UI/NavHerader/NavHerader';
 import logo from '../../../assets/images/logomarca.jpeg'
-import './Header.css';
+import './header.css';
 
 export const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false); 
