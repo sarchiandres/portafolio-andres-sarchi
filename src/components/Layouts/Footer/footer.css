@@ -10,11 +10,25 @@
     align-items: center;
     background-color: black;
     width: 100%;
+    flex-wrap: wrap;
 }
 .footerP{
     color: white;
+
     font-size: 2rem;
     padding-right: 40px;
     padding-left: 40px;
     border-right: 1px solid whitesmoke;
+}
+@media(max-width: 852px){
+    .fotter{
+        flex-wrap: wrap;
+    }
+    .footerP{
+    border-bottom: 1px solid whitesmoke;
+    }
+    .contact-container1{
+        position: relative;
+        left: -2rem;
+    }
 }

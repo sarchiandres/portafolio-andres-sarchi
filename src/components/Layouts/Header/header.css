@@ -26,6 +26,7 @@ img {
     cursor: pointer;
     display: none;
     position: relative;
+    margin-top: 2.5rem;
     z-index: 1100;
 }
 

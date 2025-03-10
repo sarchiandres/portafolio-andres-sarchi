@@ -39,3 +39,13 @@ section{
     text-align: center;
     background-color:#0A2E23;
 }
+@media(max-width: 852px){
+    .fooS{
+        flex-wrap: wrap;
+    }
+  
+    .contact-container2{
+        position: relative;
+        left: -2rem;
+    }
+}
