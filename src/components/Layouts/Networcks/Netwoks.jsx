@@ -1,5 +1,5 @@
 
-import './networks.css'
+import './Networks.css'
 export const Netwoks = ({contactcontainer='contact-container',contacttitle='contact-title',contactlinks='contact-links'}) => {
   return (
     <div className={contactcontainer}>
