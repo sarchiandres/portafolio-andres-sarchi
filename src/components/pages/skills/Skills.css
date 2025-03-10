@@ -25,3 +25,17 @@ section{
     color: green;  /* Cambiar color del texto a verde */
     font-weight: bold; /* Opcional: para que se vea más destacado */
   }
+
+.fooS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#0A2E23;
+    width: 100%;
+}
+.contact-container2{
+    width: 50%;
+    padding: 2rem;
+    text-align: center;
+    background-color:#0A2E23;
+}

@@ -4,6 +4,7 @@ import "./Home.css"
 import dinoImage from '../../../assets/images/dinoProgramer.png';
 import { Skills } from '../skills/Skills';
 import { Dowload } from '../../Layouts/DowloadCurriculum/Dowload';
+import { Footer } from '../../Layouts/Footer/Footer';
 export const Home = () => {
   return (
     <main>
@@ -19,6 +20,7 @@ export const Home = () => {
 
     </section>
     <Dowload/>
+    <Footer/>
     </main>
   )
 }
