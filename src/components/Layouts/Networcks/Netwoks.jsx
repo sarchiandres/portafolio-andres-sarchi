@@ -1,6 +1,6 @@
 
 import './networks.css'
-export const Networks = ({contactcontainer='contact-container',contacttitle='contact-title',contactlinks='contact-links'}) => {
+export const Netwoks = ({contactcontainer='contact-container',contacttitle='contact-title',contactlinks='contact-links'}) => {
   return (
     <div className={contactcontainer}>
       <h1 className={contacttitle}>Contacto</h1>

@@ -1,11 +1,11 @@
 import { ChooseMe } from '../../Layouts/ChooseME/ChooseMe';
-import { Networks } from '../../Layouts/networks/networks';
+import {Netwoks} from '../../Layouts/Networcks/Netwoks'
 
 
 export const Contact = () => {
   return (
     <>
-    <Networks/>
+    <Netwoks/>
     <ChooseMe/>
     </>
   );
