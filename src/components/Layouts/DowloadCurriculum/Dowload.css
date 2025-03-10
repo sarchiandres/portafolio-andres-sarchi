@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pixelify+Sans:wght@400..700&display=swap');
 
 
 .DW{
@@ -20,6 +19,10 @@
     padding: 0.8rem 2rem;
     border: 4px solid rgb(20, 233, 86);
     animation: flotar 1s ease-in-out infinite;
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .pdfC {
@@ -37,7 +40,9 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
     cursor: url(../../../assets/images/cursorButton.svg) 15 15, move ;
     margin-bottom: 3rem;

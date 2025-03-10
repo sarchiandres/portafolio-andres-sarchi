@@ -1,7 +1,7 @@
 import React from 'react'
 import { Header } from '../../Layouts/Header/Header'
 import "./Home.css"
-import dinoImage from '../../../assets/images/dinoProgramer.png';
+import sarchiEmoji from '../../../assets/images/logoProgramer.webp';
 import { Skills } from '../skills/Skills';
 import { Dowload } from '../../Layouts/DowloadCurriculum/Dowload';
 import { Footer } from '../../Layouts/Footer/Footer';
@@ -15,7 +15,7 @@ export const Home = () => {
         </h1>
     </div>
      <div className='imgDino'>
-        <img className='dino' src={dinoImage} alt='DinoProgramer'/>
+        <img className='sarchiEmoji' src={sarchiEmoji} alt='DinoProgramer'/>
      </div>
 
     </section>

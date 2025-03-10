@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
 .contact-container {
     padding: 2rem;
     text-align: center;
@@ -10,7 +9,10 @@
   .contact-title {
     font-size: 2rem;
     color: #1ae264;
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
     font-size: 4rem;
   }
   

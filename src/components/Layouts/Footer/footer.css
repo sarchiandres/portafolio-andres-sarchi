@@ -9,26 +9,38 @@
     justify-content: center;
     align-items: center;
     background-color: black;
-    width: 100%;
+    width: 100vw;
     flex-wrap: wrap;
 }
 .footerP{
     color: white;
-
     font-size: 2rem;
     padding-right: 40px;
     padding-left: 40px;
-    border-right: 1px solid whitesmoke;
 }
 @media(max-width: 852px){
     .fotter{
         flex-wrap: wrap;
+        width: 30rem;
     }
     .footerP{
     border-bottom: 1px solid whitesmoke;
     }
-    .contact-container1{
+    /* .contact-container1{
         position: relative;
         left: -2rem;
-    }
+    } */
+}
+@media(max-width: 800px){
+    .contact-container1{
+        position: relative;
+        left: -1rem;
+}}
+
+
+@media(max-width: 1790px){
+
+.fotter{
+    width: 100vw;
+}
 }
