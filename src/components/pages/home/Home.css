@@ -27,7 +27,7 @@ section{
 
 .sarchiEmoji{
     width: 100%;
-    height: 18rem;
+    height: 20rem;
     animation: flotar 2s ease-in-out infinite;
     object-fit: cover;
     will-change: transform;
