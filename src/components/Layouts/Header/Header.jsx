@@ -8,7 +8,7 @@ export const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false); 
   const location = useLocation(); 
   // Detecta el cambio de ruta y cierra el menú
-  useEffect(() => {
+  useEffect(() => { 
     setMenuOpen(false); 
   }, [location]); 
 
