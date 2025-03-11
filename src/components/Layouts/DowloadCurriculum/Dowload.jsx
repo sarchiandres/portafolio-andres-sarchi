@@ -7,7 +7,7 @@ export const Dowload = () => {
       <h1 className='h1D'>Mira mi currículum</h1>
       
       {/* Abre el PDF en una nueva pestaña */}
-      <a href="/public/Documents/HojaDeVidaAndresSarchi.pdf"  download>
+      <a href="/public/Documents/HojaDeVidaAndresSarchi.pdf" target="_blank" rel="noopener noreferrer">
         <button>Ver Currículum</button>
       </a>
     </div>
