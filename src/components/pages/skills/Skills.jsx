@@ -11,7 +11,6 @@ export const Skills = () => {
             <ItemEducation cla="li" titleE="Basico primaria" age="2016-2020 Marcelino Champagnat" />
             <ItemEducation cla="li" titleE="Basico secundaria" age="2021-2022 Marcelino Champagnat" />
             <ItemEducation cla="li" titleE="Tecnico en programacion de software" age="2021-2022 Marcelino Champagnat" />
-            <ItemEducation cla="li" titleE="Tecnico en programacion de software" age="2021-2022 Marcelino Champagnat" />
         </Education>
 
         <Cards />
