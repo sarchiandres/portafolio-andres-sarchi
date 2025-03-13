@@ -1,8 +1,8 @@
 import React from 'react'
 import { Header } from '../../Layouts/Header/Header'
 import "./Home.css"
-import sarchiEmoji from '../../../assets/images/logoProgramer.webp';
-import { Skills } from '../skills/Skills';
+import sarchiEmoji from '../../../assets/images/programador.png';
+
 import { Dowload } from '../../Layouts/DowloadCurriculum/Dowload';
 import { Footer } from '../../Layouts/Footer/Footer';
 export const Home = () => {
