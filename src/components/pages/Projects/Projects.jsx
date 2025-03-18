@@ -4,6 +4,9 @@ import { ItemProjects } from '../../UI/ItemProjects/ItemProjects';
 import lazzy  from '../../../assets/images/lazzy.png';
 import paises from '../../../assets/images/paises.png'; 
 import sarchphone from '../../../assets/images/sarchphone.png'
+import reproductor from '../../../assets/images/reproductor.png'
+import calculadora from '../../../assets/images/calculadora.png'
+import juego from '../../../assets/images/JuegoPapelTijera.png'
 // Añade tus propias imágenes
 import './Projects.css';
 
@@ -28,6 +31,26 @@ export const Projects = () => {
       title: "SarchPhone",
       description: "Un marketplace sobre iphones ",
       linkProject: "https://marketpplace.vercel.app/"
+    },
+    {
+      img: reproductor ,
+      title: "Reproductor",
+      description: "Un reproductor de musica sencillo",
+      linkProject: "https://reproductor-s.vercel.app/"
+    },
+    {
+        
+      img: calculadora ,
+      title: "Calculadora",
+      description: "Una calculadora con un buen diseño ",
+      linkProject: "calculadora-peach-xi.vercel.app"
+    },
+    {
+        
+      img: juego ,
+      title: "Piedra Papel o Tijera ",
+      description: "un juego de  piedra papel o tijera muy divertido ",
+      linkProject: "https://piedra-papel-o-tijera-beryl.vercel.app/"
     }
   ];
 
