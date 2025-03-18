@@ -20,6 +20,7 @@ export const Home = () => {
 
     </section>
     <Dowload/>
+    
     <Footer/>
     </main>
   )
