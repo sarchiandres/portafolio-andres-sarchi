@@ -1,7 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
 import { ItemProjects } from '../../UI/ItemProjects/ItemProjects';
-import lazzy  from '../../../assets/images/logomarca.jpeg';
+import lazzy  from '../../../assets/images/lazzy.png';
+import paises from '../../../assets/images/paises.png'; 
+import sarchphone from '../../../assets/images/sarchphone.png'
 // Añade tus propias imágenes
 import './Projects.css';
 
@@ -12,20 +14,20 @@ export const Projects = () => {
     {
       img: lazzy ,
       title: "Lazzy Letters",
-      description: "Una aplicación para gestionar correspondencia digital de forma eficiente",
+      description: "Aplicaccion de entretenimiento sobre palabras ingresadas spbre una letra ",
       linkProject: "https://lazzy-letters.vercel.app/"
     },
     {
-      img: lazzy ,
-      title: "Proyecto 2",
-      description: "Breve descripción del proyecto 2",
-      linkProject: "https://proyecto2.vercel.app/"
+      img: paises ,
+      title: "Paises",
+      description: "Un proyecto sobre los paises de latino america",
+      linkProject: "countries-six-eta.vercel.app"
     },
     {
-      img: lazzy ,
-      title: "Proyecto 3",
-      description: "Breve descripción del proyecto 3",
-      linkProject: "https://proyecto3.vercel.app/"
+      img: sarchphone ,
+      title: "SarchPhone",
+      description: "Un marketplace sobre iphones ",
+      linkProject: "https://marketpplace.vercel.app/"
     }
   ];
 
