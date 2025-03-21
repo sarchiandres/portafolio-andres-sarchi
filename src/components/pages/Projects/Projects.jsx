@@ -17,39 +17,33 @@ export const Projects = () => {
     {
       img: lazzy ,
       title: "Lazzy Letters",
-      description: "Aplicaccion de entretenimiento sobre palabras ingresadas spbre una letra ",
       linkProject: "https://lazzy-letters.vercel.app/"
     },
     {
       img: paises ,
       title: "Paises",
-      description: "Un proyecto sobre los paises de latino america",
       linkProject: "countries-six-eta.vercel.app"
     },
     {
       img: sarchphone ,
       title: "SarchPhone",
-      description: "Un marketplace sobre iphones ",
       linkProject: "https://marketpplace.vercel.app/"
     },
     {
       img: reproductor ,
       title: "Reproductor",
-      description: "Un reproductor de musica sencillo",
       linkProject: "https://reproductor-s.vercel.app/"
     },
     {
         
       img: calculadora ,
       title: "Calculadora",
-      description: "Una calculadora con un buen diseño ",
       linkProject: "calculadora-peach-xi.vercel.app"
     },
     {
         
       img: juego ,
       title: "Piedra Papel o Tijera ",
-      description: "un juego de  piedra papel o tijera muy divertido ",
       linkProject: "https://piedra-papel-o-tijera-beryl.vercel.app/"
     }
   ];
@@ -89,7 +83,6 @@ export const Projects = () => {
               <ItemProjects
                 img={project.img}
                 title={project.title}
-                description={project.description}
                 linkProject={project.linkProject}
               />
             </div>
