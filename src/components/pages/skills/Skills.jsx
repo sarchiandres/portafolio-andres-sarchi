@@ -15,7 +15,7 @@ export const Skills = () => {
 
         <Cards />
         <Education  title_E='tittleEdu' estudy="nivel de ingles">
-            <ItemEducation cla="inglish" titleE="A 1 " tittleH='tittleinglesh' />
+            <ItemEducation cla="inglish" titleE="A 2 " tittleH='tittleinglesh' />
         </Education>
 
         <Education box_education='box-ed' title_E='tittleEdu' estudy="Habilidades sociales">
