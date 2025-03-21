@@ -9,6 +9,7 @@ import calculadora from '../../../assets/images/calculadora.png'
 import juego from '../../../assets/images/JuegoPapelTijera.png'
 // Añade tus propias imágenes
 import './Projects.css';
+import { Footer } from '../../Layouts/Footer/Footer';
 
 export const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -66,6 +67,7 @@ export const Projects = () => {
   }, []);
 
   return (
+    <>
     <div className="carousel-container">
       <h2 className="carousel-title">Mis Proyectos</h2>
       
@@ -104,5 +106,7 @@ export const Projects = () => {
         ))}
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
