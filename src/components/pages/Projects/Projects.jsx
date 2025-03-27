@@ -2,10 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { ItemProjects } from '../../UI/ItemProjects/ItemProjects';
 import lazzy  from '../../../assets/images/lazzy.png';
-import paises from '../../../assets/images/paises.png'; 
 import sarchphone from '../../../assets/images/sarchphone.png'
 import reproductor from '../../../assets/images/reproductor.png'
-import calculadora from '../../../assets/images/calculadora.png'
 import juego from '../../../assets/images/JuegoPapelTijera.png'
 // Añade tus propias imágenes
 import './Projects.css';
@@ -21,11 +19,6 @@ export const Projects = () => {
       linkProject: "https://lazzy-letters.vercel.app/"
     },
     {
-      img: paises ,
-      title: "Paises",
-      linkProject: "countries-six-eta.vercel.app"
-    },
-    {
       img: sarchphone ,
       title: "SarchPhone",
       linkProject: "https://marketpplace.vercel.app/"
@@ -35,12 +28,7 @@ export const Projects = () => {
       title: "Reproductor",
       linkProject: "https://reproductor-s.vercel.app/"
     },
-    {
-        
-      img: calculadora ,
-      title: "Calculadora",
-      linkProject: "calculadora-peach-xi.vercel.app"
-    },
+  
     {
         
       img: juego ,

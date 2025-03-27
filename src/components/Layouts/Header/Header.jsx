@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom'; 
 import { NavHerader } from '../../UI/NavHerader/NavHerader';
-import logo from '../../../assets/images/logomarca.jpeg'
+import logo from '../../../assets/images/logoMarcaSarchi.jpeg'
 import './header.css';
 
 export const Header = () => {
